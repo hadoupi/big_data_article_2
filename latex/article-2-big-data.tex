@@ -1,0 +1,187 @@
+\documentclass[10pt,conference,letterpaper]{IEEEtran}
+%\usepackage{times,amsmath,epsfig}
+%\usepackage[utf8]{inputenc}
+\usepackage{mathtools, bm}
+\usepackage{amssymb, bm}
+\usepackage[greek,francais,english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{here}
+
+%
+\title{Comparative study between Datawerhouse, Datalake and Datalakehouse}
+\author{%
+% author names are typeset in 11pt, which is the default size in the author block
+{Hassan BADI{\small $~^{\ast1}$},Imad BADI{\small $~^{\#2}$},Karim EL MOUTAOUAKIL {\small $~^{\ast3}$},Abdelkhalek BAHRI{\small $~^{\#4}$},Aziz KHAJANE{\small $~^{\#5}$}}%
+\vspace{1.6mm}\\
+\fontsize{10}{10}\selectfont\itshape
+$^{\#}$\,Applied Sciences Laboratory (LSA)\\
+National School of Applied Sciences, Al-Hoceima\\
+ Abdelmalek Esaadi University\\
+Po. Box: 03, Ajdir, Al Hoceima, Morocco\\
+\fontsize{9}{9}\selectfont\ttfamily\upshape
+$^{2}$\,ibadi@uae.ac.ma
+$^{4}$\,bahri.abdelkhalak@gmail.com 
+$^{5}$\,khamjane.aziz@gmail.com  
+% add some space between email and affil
+\vspace{1.2mm}\\
+\fontsize{10}{10}\selectfont\rmfamily\itshape
+$^{*}$\,Engineering Sciences Laboratory on Taza, Sidi Mohamed Ben Abdellah University\\
+Fès, Morocco\\
+\fontsize{9}{9}\selectfont\ttfamily\upshape
+$^{1}$\,hassan.badigi@gmail.com
+$^{3}$\,karim.elmoutaouakil@usmba.ma
+
+\vspace{1.2mm}\\
+}
+%
+\begin{document}
+\maketitle
+%
+\begin{abstract}
+% This is a comment
+%
+%
+
+\par Abstract here : text text text text text  text text text text text text text text text text  text text text 
+ text text text  text text text  text text text  text text text  text text text  text text text  text text text  
+ text text text  text text text  text text text  text text text  text text text 
+ text text text  text text text  text text text  text text text  text text text  text text text 
+ text text text  text text text  text text text  text text text  text text text  text text text  text text text  
+ text text text  text text text  text text text  text text text  text text text 
+ text text text  text text text  text text text  text text text  text text text  text text text 
+  text text text  text text text  text text text  text text text  text text text  text text text  text text text  
+ text text text  text text text  text text text  text text text  text text text 
+ text text text  text text text  text text text  text text text  text text text  text text text 
+  text text text  text text text  text text text  text text text  text text text  text text text  text text text  
+ text text text  text text text  text text text  text text text  text text text 
+ text text text  text text text  text text text  text text text  text text text  text text text 
+
+\end{abstract}
+
+% NOTE keywords are not used for conference papers so do not populate them
+\par \textbf{Keywords}:
+% List of keyword : 
+Datawerhouse; Datalake; Datawerhouse; Spark; Parallel processing.
+
+\section{Introduction}
+% here Ideas and key points of the introduction
+% Key point 1 : 
+% Key point 2 : 
+% Key point 3 : 
+% Key point 4 : 
+%
+\par
+Paragraph 1 :
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+
+\par 
+Paragraph 2 
+
+\subsection{Problematic}
+%
+\par 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+
+\subsection{Objectives}
+%
+\par 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+
+
+
+\section{Related work}
+
+\par  \cite{reference-1} and \cite{reference-2} 
+% 
+
+\subsection{Article 1 with resume}
+%
+%
+\par 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+\par 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+
+\subsection{Article 2 with resume}
+%
+\par 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+
+\subsection{Article 3 with resume}
+%
+\par 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+
+\subsection{Article 4 with resume}
+%
+\par 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+
+\subsection{Article 5 with resume}
+%
+\par 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+
+
+\section{Methodology and implementation}
+%\
+%
+\par 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+
+
+\section{Discution}
+
+\par 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+
+
+\section{Conclusion}
+
+\par 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+
+
+
+\section{Contribution of authors}
+\par 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT  TEXT TEXT 
+
+\bibliographystyle{ieeetr}
+\bibliography{biblio}
+%\bibliography{IEEEabrv,IEEEexample}
+
+\end{document}
